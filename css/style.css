@@ -3,9 +3,9 @@
     margin: 0;
 }
 body{
-    background-color: black;
+   background-color: black;
     width: 100%;
-    height: 100%;
+    height: 10 0%;
 }
 header {
     display: flex;
@@ -35,25 +35,58 @@ header h5{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200vh;
+    height: 180vh;
+    width: 80%;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
     border: 1px solid rgb(245, 238, 238);
 }
-#sec1bigbox{
+/* #sec1bigbox{
     border: 1px solid white;
     height: 100%;
     width: 80%;
-}
+} */
 #sec1bigimg{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(
-        to bottom,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-    ),
-    url(../res/bigimg.png);
+    background-image:  url(../res/bigimg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
+}
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#prop1{
+    border: 1px solid white;
+    height: 50vh;
+}
+#prop2{
+    border: 1px solid white;
+    height: 50vh;
+}
+#prop3{
+    border: 1px solid white;
+    height: 50vh;
+}
+#prop4{
+    border: 1px solid white;
+    height: 50vh;
+}
+#prop5{
+    border: 1px solid white;
+    height: 50vh;
+}
+#prop6{
+    border: 1px solid white;
+    height: 50vh;
+
+}
+#longline{
+    border: 1px solid white;
+    width: 100%;
+    margin-bottom: 3vh;
 }
