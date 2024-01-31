@@ -4,8 +4,8 @@
 }
 body{
    background-color: black;
-    width: 100%;
-    height: 10 0%;
+    /* width: 90%; */
+    /* height: 100%; */
 }
 header {
     display: flex;
@@ -24,28 +24,28 @@ header {
 header h5{
     color: white;
 }
-
 #navelem a{
     color: white;
     gap: 40px;
     text-decoration: none;
     margin:0px 50px 0px 60px;
 }
+
 .sec1{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 180vh;
-    width: 80%;
-    margin-top: 8vh;
+    width: 100%;
+    /* margin-top: 8vh; */
     margin-bottom: 10vh;
-    border: 1px solid rgb(245, 238, 238);
+    /* border: 1px solid rgb(245, 238, 238); */
 }
-/* #sec1bigbox{
-    border: 1px solid white;
+#sec1i{
+    /* border: 1px solid white; */
     height: 100%;
     width: 80%;
-} */
+}
 #sec1bigimg{
     width: 100%;
     height: 100%;
@@ -55,35 +55,31 @@ header h5{
     background-position: center;
 
 }
+#sec1bigimg h1{
+    color: white;
+}
 .sec2{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* margin-bottom: -50px; */
 }
-#prop1{
-    border: 1px solid white;
-    height: 50vh;
+.sec2 img{
+    width: 15vw;
 }
-#prop2{
-    border: 1px solid white;
-    height: 50vh;
+.sec2 h5{
+    color: white;
 }
-#prop3{
-    border: 1px solid white;
-    height: 50vh;
-}
-#prop4{
-    border: 1px solid white;
-    height: 50vh;
-}
-#prop5{
-    border: 1px solid white;
-    height: 50vh;
-}
-#prop6{
-    border: 1px solid white;
-    height: 50vh;
 
+.sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* margin-top: -100px; */
+}
+.straightline{
+    border: 1px solid white;
+    height: 50vh;
 }
 #longline{
     border: 1px solid white;
