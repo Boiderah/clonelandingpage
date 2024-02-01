@@ -57,12 +57,13 @@ header h5 {
   color: white;
 }
 .sec2 {
-  /* margin-top: 10vh; */
+  margin-top: 10vh;
   display: flex;
   border-bottom: white 2px solid;
   align-items: end;
   justify-content: center;
   gap: 8px;
+  /* margin-bottom: 2vh; */
 }
 .dinnerbox {
   width: 15%;
@@ -75,40 +76,39 @@ header h5 {
 }
 .dinnerbox h1 {
   color: rgb(109, 67, 11);
-  margin-bottom: 1vh;
-  font-size: 15px;
+  margin-bottom: 2vh;
+  font-size: 12px;
   font-weight: 100;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+  /* text-align: center; */
 }
 .dinnerbox p {
   color: white;
-  font-size: 10px;
+  font-size: 7px;
   font-weight: 100px;
   font-family: sans-serif;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 2vh;
 }
-
 #dline1 {
   width: 2px;
   background-color: white;
-  height: 20vh;
+  height: 25vh;
 }
 #dline2 {
   width: 2px;
   background-color: white;
-  height: 20vh;
+  height: 40vh;
 }
 #dline3 {
   width: 2px;
   background-color: white;
-  height: 20vh;
+  height: 35vh;
 }
 #dline4 {
   width: 2px;
   background-color: white;
-  height: 20vh;
+  height: 15vh;
 }
 #dline5 {
   width: 2px;
@@ -119,4 +119,42 @@ header h5 {
   width: 2px;
   background-color: white;
   height: 20vh;
+}
+.sec3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  height: 100vh;
+}
+#sectrio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  width: 70%;
+  height: 80%;
+  border: 1px solid white;
+}
+#sectrio h1{
+  color: white;
+  font-size: 10px;
+  font-weight: 100px;
+  font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#sectrio h2{
+  color: white;
+  font-size: 10px;
+  font-weight:100px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+#sectrio p{
+  color: white;
+  font-size: 10px;
+  font-weight:100px ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 10px;
+}
+span{
+  color:rgb(109, 67, 11) ;
 }
