@@ -30,6 +30,9 @@ header h5 {
   text-decoration: none;
   margin: 0px 50px 0px 60px;
 }
+#navelem a:hover{
+  color: blanchedalmond;
+}
 .sec1 {
   display: flex;
   justify-content: center;
@@ -63,7 +66,7 @@ header h5 {
   align-items: end;
   justify-content: center;
   gap: 8px;
-  /* margin-bottom: 2vh; */
+  margin-bottom: 30vh;
 }
 .dinnerbox {
   width: 15%;
@@ -124,8 +127,8 @@ header h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
-  height: 100vh;
+  /* border: 1px solid white; */
+  /* height: 100vh; */
 }
 #sectrio{
   display: flex;
@@ -133,28 +136,40 @@ header h5 {
   justify-content: center;
   /* align-items: center; */
   width: 70%;
-  height: 80%;
-  border: 1px solid white;
+  /* height: 90%; */
+  /* border: 1px solid white; */
 }
 #sectrio h1{
-  color: white;
-  font-size: 10px;
-  font-weight: 100px;
+  color:rgb(230, 168, 87) ;
+  font-size: 17px;
+  font-weight: 200px;
   font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #sectrio h2{
+  margin-bottom: 5vh;
   color: white;
-  font-size: 10px;
-  font-weight:100px ;
+  font-size: 13px;
+  font-weight:150px ;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 #sectrio p{
   color: white;
-  font-size: 10px;
+  font-size: 11px;
   font-weight:100px ;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-bottom: 10px;
+  margin-bottom: 3vh;
 }
 span{
-  color:rgb(109, 67, 11) ;
+  color:rgb(230, 168, 87) ;
+}
+.sec4{
+  /* border: 1px solid white; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+#dsec4{
+  /* border: 1px solid white; */
+  height: 90%;
+  width: 70%;
 }
