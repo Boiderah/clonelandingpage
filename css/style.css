@@ -31,7 +31,8 @@ header h5 {
   margin: 0px 50px 0px 60px;
 }
 #navelem a:hover{
-  color: blanchedalmond;
+  color: #B5964D;
+  text-decoration: line-through;
 }
 .sec1 {
   display: flex;
@@ -81,7 +82,7 @@ header h5 {
   width: 100%;
 }
 .dinnerbox h1 {
-  color: rgb(109, 67, 11);
+  color: #B5964D;
   margin-bottom: 2vh;
   font-size: 12px;
   font-weight: 100;
@@ -139,11 +140,10 @@ header h5 {
   justify-content: center;
   /* align-items: center; */
   width: 70%;
-  /* height: 90%; */
-  /* border: 1px solid white; */
+  margin-bottom: 30vh;
 }
 #sectrio h1{
-  color:rgb(230, 168, 87) ;
+  color: #B5964D;
   font-size: 17px;
   font-weight: 200px;
   font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -163,21 +163,73 @@ header h5 {
   margin-bottom: 3vh;
 }
 span{
-  color:rgb(230, 168, 87) ;
+  color:#B5964D ;
 }
 .sec4{
-  border: 1px solid white;
+  /* border: 1px solid white; */
   height: 100vh;
   display: flex;
   justify-content: center;
 }
 #dsec4{
-  border: 1px solid white;
-  height: 90%;
-  width: 80%;
+  /* border: 1px solid white; */
+  /* height: 90%; */
+  width: 70%;
 }
-#dsec4i{
+#dsec4 h1{
+  color: #B5964D;
+  font-family: Helvetica;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27.6px;
+}
+#dsec4 h6{
+  color: #D9D9D9;
+  font-family: Helvetica;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 27.6px;
+  margin-bottom: 10vh;
+}
+#text{ 
+  width: 70%;
+  height: 60%;
+  margin-left: 14vw;
+  padding: 20px;
+  /* border: 1px solid white; */
+}
+#dsec4 h5{
+ color: #B5964D;
+ font-family: Helvetica;
+ font-weight: 300px;
+ font-size: 15px;
+ Line-height :29.9px;
+ margin-bottom: 5vh
+
+}
+#dsec4 p{
+  color:#D9D9D9 ;
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 10vh;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   border: 1px solid white;
- 
+  height: 20vh;
+}
+footer h6 {
+  color: #B5964D;
+  font-family:  Helvetica;
+font-weight: 700;
+font-size: 20px;
+margin-bottom: 5vh;
+}
+footer p {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
 }
