@@ -42,15 +42,12 @@ header h5 {
   width: 100%;
   /* margin-top: 8vh; */
   margin-bottom: 10vh;
-  /* border: 1px solid rgb(245, 238, 238); */
+  border: 1px solid rgb(245, 238, 238);
 }
 #sec1i {
-  /* border: 1px solid white; */
+  border: 1px solid white;
   height: 100%;
   width: 80%;
-}
-#sec1ii{
-  background: url(../res/Ellipse\ 4.png);
 }
 #sec1bigimg {
   width: 100%;
@@ -59,9 +56,15 @@ header h5 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border: 1px solid white;
 }
 #sec1bigimg h1 {
   color: white;
+}
+.textinimg{
+  border: 1px solid white;
+  width: 80%;
+  height: 80%;
 }
 .sec2 {
   margin-top: 10vh;
